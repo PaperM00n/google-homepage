@@ -1,0 +1,239 @@
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+   }
+
+  .nav-links{
+    list-style: none;
+  }
+
+  .nav-links li{
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  .nav-links li a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-links li a:hover{
+    text-decoration: underline;
+  }
+
+  .navleft{
+    margin-right: auto;
+
+    /* padding: 0px 10px; */
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .navleft li{
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  .navleft li a{
+    text-decoration: none;
+    color: black;
+  }
+  .navleft li a:hover{
+    text-decoration: underline;
+  }
+
+  .w3button{
+    background-color: white;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+
+    position: relative;
+  }
+
+  .w3button:hover {
+    background-color: rgb(233, 233, 233);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+  }
+
+  .nav_icon {
+    cursor: pointer;
+    border: none; 
+
+  }
+  
+   .nav_icon:hover {
+    background-color: rgb(223, 223, 223);
+  } 
+  
+
+  .material-icons-outlined.md-18 { 
+    font-size: 20px; 
+    color: rgb(85, 85, 85);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+    }
+
+    .profile-photo {
+
+        margin-top: 6px;
+        border-radius: 50%;
+        width:24px;
+        height:24px;
+
+    }
+
+    .google-logo{
+        width: 272px;
+        height: 92px;
+        margin-bottom: 3rem;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 15rem;
+    }
+
+    input[type=text], select {
+      border: none;
+      outline: none;
+    }
+
+    button {
+      border: none;
+      background-color: white;
+      cursor: pointer;
+  }
+
+    .searchbar{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+      width: 560px;
+      padding: 9px;
+       border: .5px solid rgb(231, 231, 231);
+       border-radius: 30px;
+       padding-right: 1.5rem;
+
+
+    }
+
+    .searchbar:hover{
+      box-shadow: 5px 5px 18px #e6e6e6;
+    }
+
+    .searchinput{
+      width: 90%;
+    font-size: 1.6rem;
+    }
+
+    .searchicon{
+      background-color: white;
+      border: none;
+      color: rgb(173, 173, 173);
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 4px;
+      margin-left: 4px;
+      margin-right: 10px;
+      height: 20px;
+      width: 20px;
+  
+      position: relative;
+    }
+
+    .microphone-icon{
+      margin-right: -10px;
+
+    }
+
+    .searchbuttons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      
+    }
+
+    .button2{
+      height: 12px;
+      padding: 10px 15px 25px 15px;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      margin: 8px 20px;
+      font-size: 13px;
+      background-color: rgb(247, 247, 247);
+    }
+
+    .button2:hover{
+      border: .5px solid rgb(230, 230, 230);
+      box-shadow: .3px .3px 12px #e6e6e6;
+    }
+
+    .footer{
+      position: absolute;
+      bottom: 0;
+    left: 0;
+      display: flex;
+      align-items: center;
+      /* flex-direction: column; */
+      justify-content: space-between;
+      width: 100%;
+      background-color: rgb(247, 247, 247);
+      bottom: 0;
+      left: 0;
+      font-size: 14px;
+      color: rgb(110, 110, 110);
+      padding: 5px;
+      border: .2px solid rgb(233, 233, 233);
+    }
+
+    .leftside{
+      display: flex;
+    }
+
+    .rightside{
+      display: flex;
+    }
+
+    .rightside {
+      margin-right: 50px;
+  }
+
+    .footerlink{
+    display: block;
+    padding: 1rem 0 1rem 3rem;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+    color: rgb(48, 48, 48);
+  }
